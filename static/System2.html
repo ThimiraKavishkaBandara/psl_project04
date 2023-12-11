@@ -1,0 +1,18 @@
+<!-- System2.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div id="container" style="display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
+    <h1 style="text-align: center;">Rank Movie Titles to Get Recommendations</h1>
+    <div id="scrollingContainer" style="border: 2px solid #080101; padding: 15px; max-width: 500px; width: 100%; height: 600px; overflow-y: scroll; margin-bottom: 20px; box-sizing: border-box;">
+        <h2 style="text-align: center; margin-bottom: 15px;">Movies List</h2>
+        <!-- Add content specific to System 2 -->
+        <!-- You can add the movie entries dynamically using JavaScript here -->
+    </div>
+    <button id="getRecommendationsButton" style="margin-bottom: 20px;">Get Recommendations</button>
+    <div id="recommendationsDropdownContainer"></div>
+</div>
+<script src="/static/system2.js"></script>
+{% endblock %}
+
+

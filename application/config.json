@@ -1,0 +1,7 @@
+{
+    "datapath": "../data", 
+    "similarity_matrix_name": "similarity_matrix_top_k_from_Rmat.npy", 
+    "rating_matrix_name": "Rmat.csv", 
+    "data_url": "https://liangfgithub.github.io/MovieData/",
+    "s3_bucket_name": "project4data"
+}

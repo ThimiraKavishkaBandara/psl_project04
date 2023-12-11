@@ -1,0 +1,25 @@
+/* styles.css */
+
+
+
+
+
+/* Style for the dropdown arrow */
+#recommendationsDropdown {
+    height: 20px; /* Adjust the height as needed */
+}
+
+/* Style for the button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #45a049;
+}
